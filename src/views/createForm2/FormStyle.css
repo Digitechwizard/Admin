@@ -1,0 +1,41 @@
+
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh;  */
+  }
+  
+  .form-container {
+    width: 80%; /* Adjust width of the form container */
+    max-width: 400px; /* Adjust max width if needed */
+  }
+  
+  .select-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    /* margin-top: 10px; */
+  }
+  
+  .marquee-container {
+    /* margin-top: 20px; Adjust margin as needed */
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .marquee-container h6 {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    .form-container {
+      width: 90%; /* Adjust for smaller screens */
+    }
+  }
+  
